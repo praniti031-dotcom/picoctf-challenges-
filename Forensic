@@ -1,3 +1,12 @@
 
-Challege I solved -: Scan surprise (picoctf)
+Challege I solved -:
+
+1 . Scan surprise (picoctf)
 In above I challenge I got zip folder in which I found flag image.It was qr code.After scanning I found the flag
+
+2. Verify (picoctf)
+First I ran the ssh command on terminal. After entering password and successfully compiling.I found the specific file and checkedsum. After sha256sum files/* | grep $(cat checksum.txt)
+this command and finally ./decrypt.sh files/<matching-filename> this command I found the flag.
+
+
+
